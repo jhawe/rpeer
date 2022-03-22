@@ -30,6 +30,6 @@ conda activate rpeer
 
 ## Alternative: docker
 
-There is also a docker image available through quai.io, located at [https://quay.io/repository/biocontainers/r-peer](https://quay.io/repository/biocontainers/r-peer)
+There is also a docker image available through quay.io, located at [https://quay.io/repository/biocontainers/r-peer](https://quay.io/repository/biocontainers/r-peer).
 This image contains a simple R PEER installation.
 

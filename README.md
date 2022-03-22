@@ -13,7 +13,7 @@ which is why I provide this conda env definition including R-based PEER and tidy
 As usual with conda, you can simply create a new environment using the provided 'rpeer.yml' or 'rpeer_explicit.yml' file (the 'explicit' file is a direct export of my working conda env):
 
 ```
-git clone 
+git clone https://github.com/jhawe/rpeer.git
 cd rpeer/
 conda env create -f rpeer.yml
 ```

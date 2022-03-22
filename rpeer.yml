@@ -1,0 +1,9 @@
+name: rpeer
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - r-peer
+  - r-tidyverse
+  - r-cli

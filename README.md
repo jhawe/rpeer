@@ -1,6 +1,7 @@
 This repository simply provides a conda environment definition
 to install the R version of 'PEER' (see [here](https://github.com/PMBio/peer) for details on PEER) alongside
 'tidyverse'.
+Also added a simple script containing a wrapper to PEER.
 
 ## Background
 

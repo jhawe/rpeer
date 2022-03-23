@@ -10,6 +10,8 @@ which is why I provide this conda env definition including R-based PEER and tidy
 
 ## Installation
 
+### conda
+
 As usual with conda, you can simply create a new environment using the provided 'rpeer.yml' or 'rpeer_explicit.yml' file (the 'explicit' file is a direct export of my working conda env):
 
 ```
@@ -28,8 +30,15 @@ You can then activate the environment and use PEER as follows:
 conda activate rpeer
 ```
 
-## Alternative: docker
+### Alternative: docker
 
 There is also a docker image available through quay.io, located at [https://quay.io/repository/biocontainers/r-peer](https://quay.io/repository/biocontainers/r-peer).
 This image contains a simple R PEER installation.
 
+## Application
+
+Just a few notes on application of PEER (see also the [original publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3398141/):
+I provide a simple script to 'correct for peer factors' in this repository ([utils_peer.R](scripts/utils_peer.R)).
+
+1. PEER assumes a NxG matrix, with N=number of individuals and G=number of genes/molecular entities
+2. to be feasible, number of factors to be estimated should not by set above 100 (default: N / 4)

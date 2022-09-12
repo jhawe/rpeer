@@ -23,7 +23,7 @@ conda env create -f rpeer.yml
 
 > Please note that specifying `r-cli` in the env file is necessary in order for tidyverse to work properly at the time of writing this.
 
-> General note: I usually recommend using '[mamba](https://mamba.readthedocs.io/en/latest/user_guide/mamba.html)' instead of the 'conda' command to speed up environment solving.
+> General note: I usually recommend using '[mamba](https://mamba.readthedocs.io/en/latest/user_guide/mamba.html)' instead of the `conda` command to speed up environment solving. It seems that the original `conda` command can also run into errors when solving the environment, where `mamba` doesn't.
 
 You can then activate the environment and use PEER as follows:
 

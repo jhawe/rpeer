@@ -36,6 +36,8 @@ conda activate rpeer
 There is also a docker image available through quay.io, located at [https://quay.io/repository/biocontainers/r-peer](https://quay.io/repository/biocontainers/r-peer).
 This image contains a simple R PEER installation.
 
+> UPDATE (16 Sep 2022): The respository now provides a [PEER dockerfile](./Dockerfile_peer) which can be used to build your own docker/singularity/charliecloud image. The dockerfile includes some basic packages for advanced data manipulation in R (dplyr, magrittr, readr).
+
 ## Application
 
 Just a few notes on application of PEER (see also the [original publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3398141/):

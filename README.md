@@ -42,7 +42,7 @@ You can then activate the environment and use PEER as follows:
 ### docker
 
 This respository now provides a [PEER dockerfile](./Dockerfile_peer) which can be used to build your own docker/singularity/charliecloud image. The dockerfile includes some basic packages for more advanced data manipulation in R (dplyr, magrittr, readr).
-The docker image is provided also on [docker hub]().
+The docker image is provided also on [docker hub](https://hub.docker.com/r/jhawe/peer).
 
 ## Application
 

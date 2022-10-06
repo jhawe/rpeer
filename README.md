@@ -33,11 +33,9 @@ You can then activate the environment and use PEER as follows:
 ~: conda activate rpeer
 
 ~: R
-
 [...]
-
 > library(peer)
-
+> 
 [...]
 ```
 
